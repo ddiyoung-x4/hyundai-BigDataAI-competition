@@ -20,7 +20,16 @@
 <img width="80%" src="https://user-images.githubusercontent.com/69739208/170207564-c0ae69ce-cb10-4569-9d15-eab466b861bf.png"/>  
 
 3. Solution  
-EfficientNet-b0  
+  
+1) 데이터 전처리  
+[1] MixUp  
+같은 클래스의 이미지끼리 투명도를 주어 합침으로써 새로운 데이터를 구축함.  
+[2] Cutblur  
+이미지의 모든 부분을 골고루 보게하는 기술  
+본 task의 경우 화물차를 제외한 부분에 blur 처리한 후 적용함.  
+<img width="70%" src="https://user-images.githubusercontent.com/69739208/170208954-5efeff9e-8412-40d6-87b6-05db5ead2ab4.png"/>  
+  
+2) 분석 모델, EfficientNet-b0  
   
 |img_size|256x256|400x400|400x400 gray|400x400 gray+random_rotation|
 |:------:|---:|---:|---:|---:|

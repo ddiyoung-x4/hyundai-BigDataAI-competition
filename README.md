@@ -16,7 +16,9 @@
 트레일러 위와 측면에 사람, 그림자, 차량 각도  
 -2) FN  
 작은 물체, 차량 각도, 평평한 물체, 바닥이 안보이는 경우  
-  
+
+<img width="80%" src="https://user-images.githubusercontent.com/69739208/170207564-c0ae69ce-cb10-4569-9d15-eab466b861bf.png"/>  
+
 3. Solution  
 EfficientNet-b0  
   
@@ -26,3 +28,6 @@ EfficientNet-b0
 |FN|80|115|46|400 > |
 |val_acc|none|none|none|none|
 |분석||확실하게 구분하는 대신에, 구분하는 것에서 에러|확실하게 구분하지는 못했는데, 잘 못 구분한 것 감소||
+
+
+
